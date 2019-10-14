@@ -13,9 +13,18 @@ namespace DataStructuresAndAlgorithms
         {
             #region PairsWithGivenSum
 
-            int[] array = new int[] { 1, 4, 3, 3, 5, 2, 6 };
+            int[] arr1 = new int[] { 1, 4, 3, 3, 5, 2, 6 };
             PairsWithGivenSum pairs = new PairsWithGivenSum();
-            pairs.FindPairsForGivenSum(array, 9);
+            pairs.FindPairsForGivenSum(arr1, 9);
+
+            #endregion
+
+            #region MajorityElement
+
+            int[] arr2 = new int[] { 1, 1, 1, 2, 2, 2, 2 };
+            MajorityElement element = new MajorityElement();
+            element.FindMajorityElement(arr2);
+            element.FindMajorityElementUsingMooreAlgo(arr2);
 
             #endregion
 
