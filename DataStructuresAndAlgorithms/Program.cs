@@ -1,3 +1,4 @@
+using DataStructuresAndAlgorithms.Arrays;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,12 +11,16 @@ namespace DataStructuresAndAlgorithms
     {
         static void Main(string[] args)
         {
-            // The code provided will print ‘Hello World’ to the console.
-            // Press Ctrl+F5 (or go to Debug > Start Without Debugging) to run your app.
-            Console.WriteLine("Hello World!");
+            #region PairsWithGivenSum
+
+            int[] array = new int[] { 1, 4, 3, 3, 5, 2, 6 };
+            PairsWithGivenSum pairs = new PairsWithGivenSum();
+            pairs.FindPairsForGivenSum(array, 9);
+
+            #endregion
+
             Console.ReadKey();
 
-            // Go to http://aka.ms/dotnet-get-started-console to continue learning how to build a console app! 
         }
     }
 }
