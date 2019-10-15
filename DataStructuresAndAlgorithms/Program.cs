@@ -28,6 +28,15 @@ namespace DataStructuresAndAlgorithms
 
             #endregion
 
+            #region MaxDifference
+
+            int[] arr3 = new int[] { 3, 1, 4, 7, 5, 100, 10 };
+            MaxDifference difference = new MaxDifference();
+            difference.FindMaxApproachOne(arr3);
+            difference.FindMaxApproachTwo(arr3);
+
+            #endregion
+
             Console.ReadKey();
 
         }
