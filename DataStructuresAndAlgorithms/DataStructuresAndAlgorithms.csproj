@@ -44,6 +44,7 @@
   <ItemGroup>
     <Compile Include="Arrays\MajorityElement.cs" />
     <Compile Include="Arrays\MaxDifference.cs" />
+    <Compile Include="Arrays\OddOccurrence.cs" />
     <Compile Include="Arrays\PairsWithGivenSum.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

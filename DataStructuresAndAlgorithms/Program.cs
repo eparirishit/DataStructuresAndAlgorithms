@@ -37,6 +37,15 @@ namespace DataStructuresAndAlgorithms
 
             #endregion
 
+            #region OddOccurrence
+
+            int[] arr4 = new int[] { 2, 3, 1, 2, 3, 1, 1 };
+            OddOccurrence occurrence = new OddOccurrence();
+            occurrence.FindOddOccurrence(arr4);
+            occurrence.FindOddOccurrenceXOR(arr4);
+
+            #endregion
+
             Console.ReadKey();
 
         }
